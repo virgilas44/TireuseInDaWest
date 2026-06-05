@@ -315,8 +315,10 @@ header[id]{
 }
 
 /* 5) Décale uniquement la carte sous la navbar (sans décaler le BG) */
-.section-hero .hero-card{
-  transform: translateY(calc(var(--nav-height) * 0.5 + var(--hero-offset))) !important;
+@media (min-width: 768px){
+  .section-hero .hero-card{
+    transform: translateY(calc(var(--nav-height) * 0.5 + var(--hero-offset))) !important;
+  }
 }
 
 /* 6) Option : évite le petit "jump" visuel du fixed sur certains navigateurs */
@@ -382,4 +384,60 @@ header[id]{
 @media (max-width: 767px){
   .product-card img{ height: 210px; }
   #galleryCarousel img{ height: 360px; }
+}
+
+/* =========================
+   FIX MOBILE IPHONE
+   ========================= */
+
+@media (max-width: 767px){
+
+  :root{
+    --nav-height: 96px;
+    --hero-offset: 0px;
+  }
+
+  .section-hero{
+    height: auto !important;
+    min-height: 100svh !important;
+    padding-top: calc(var(--nav-height) + 24px) !important;
+    padding-bottom: 48px !important;
+    align-items: flex-start !important;
+  }
+
+  .section-hero .container{
+    height: auto !important;
+    align-items: flex-start !important;
+  }
+
+  .section-hero .hero-card{
+    transform: none !important;
+    padding: 1.6rem 1.3rem;
+    margin-top: 0;
+  }
+
+  .section{
+    min-height: auto;
+    padding-top: calc(var(--nav-height) + 36px) !important;
+    padding-bottom: 56px;
+  }
+
+  .section-title{
+    font-size: clamp(2rem, 9vw, 3rem);
+    line-height: 1.12;
+  }
+
+  .kicker{
+    font-size: .72rem;
+    letter-spacing: .18em;
+  }
+
+  .navbar .brand-logo{
+    width: 58px;
+    height: 58px;
+  }
+
+  .scroll-indicator{
+    display: none;
+  }
 }
