@@ -498,3 +498,10 @@ header[id]{
     line-height: 1.15 !important;
   }
 }
+.offcanvas{
+  z-index: 2000 !important;
+}
+
+.offcanvas-backdrop{
+  z-index: 1999 !important;
+}
