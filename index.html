@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tireuse de l’Ouest — Montage de tireuses sur mesure</title>
+  <meta name="description" content="Montage, installation et maintenance de tireuses à bière sur mesure, fixes ou mobiles, avec solutions de filtration d’eau en Loire-Atlantique." />
+  <meta property="og:title" content="Tireuse de l’Ouest — Tireuses sur mesure" />
+  <meta property="og:description" content="Installation, montage et maintenance de systèmes de tirage pression professionnels." />
+  <meta property="og:image" content="img/site-logo.png" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <!-- Favicon -->
+<link rel="icon" type="image/svg" sizes="32x32" href="img/chichilogocleanHOUBLON2.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="img/chichilogocleanHOUBLON2.svg">
+
+  <!-- AOS (animations au scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-black text-white">
+
+  <!-- Navbar (logo centré) -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-glass sticky-top">
+    <div class="container">
+
+      <!-- Left links -->
+      <div class="collapse navbar-collapse order-1 order-lg-0" id="navLeft">
+        <ul class="navbar-nav ms-lg-0 me-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#chr">CHR</a></li>
+          <li class="nav-item"><a class="nav-link" href="#materiels">Matériels</a></li>
+        </ul>
+      </div>
+
+      <!-- Center logo -->
+      <a class="navbar-brand mx-lg-auto order-0 order-lg-1 brand-center" href="#accueil">
+        <div class="brand-badge">
+          <!-- Placeholder logo -->
+          <img src="img/chichilogoclean.png" alt="Logo Tireuse de l’Ouest" width="48" height="48" class="brand-logo">
+        </div>
+        <!--<span class="brand-text d-none d-md-inline">Tireuse Addict</span>-->
+      </a>
+
+      <!-- Right links -->
+      <div class="collapse navbar-collapse order-2" id="navRight">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#galerie">Galerie</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Toggler (mobile) -->
+      <button class="navbar-toggler order-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Offcanvas mobile menu -->
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileMenu">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Fermer"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#accueil" data-bs-dismiss="offcanvas">Accueil</a>
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#chr" data-bs-dismiss="offcanvas">CHR</a>
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#materiels" data-bs-dismiss="offcanvas">Matériels</a>
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#galerie" data-bs-dismiss="offcanvas">Galerie</a>
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#services" data-bs-dismiss="offcanvas">Services</a>
+        <a class="list-group-item list-group-item-action bg-dark text-white" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO / ACCUEIL -->
+  <header id="accueil" class="section section-hero parallax" data-bg="img/hero-bg.jpg">
+    <div class="overlay"></div>
+
+    <!-- ✅ hero-card centré : justify-content-center -->
+    <div class="container h-100 d-flex align-items-center justify-content-center">
+      <div class="hero-card" data-aos="fade-up" data-aos-duration="900">
+        <p class="kicker mb-2">Votre spécialiste en systèmes de tirage et filtration</p>
+        <h1 class="display-5 fw-semibold mb-3">
+          Bienvenue sur <span class="text-gold">Tireuse de l’Ouest</span>
+        </h1>
+        <p class="lead text-white-75 mb-4">
+          Fort de 16 ans d’expérience en brasserie artisanale, j’accompagne bars, restaurants, hôtels, entreprises et associations dans la fourniture et l’installation de systèmes de tirage pression.</p>
+
+<p class="lead text-white-75 mb-4">J’installe et optimise vos équipements (colonnes, groupes froids, réseaux…) ainsi que des solutions de filtration d’eau sans contrat, pour garantir performance, fiabilité et qualité de service.</p>
+
+<p class="lead text-white-75 mb-4">Un accompagnement professionnel, des installations durables, et des solutions adaptées à vos besoins.
+        </p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#contact" class="btn btn-gold btn-lg">Demander un devis</a>
+          <a href="#services" class="btn btn-outline-light btn-lg">Voir les services</a>
+        </div>
+        <div class="mt-4 d-flex flex-wrap gap-3 small text-white-50">
+          <span><i class="bi bi-check2-circle"></i> Intervention rapide</span>
+          <span><i class="bi bi-check2-circle"></i> Matériel pro</span>
+          <span><i class="bi bi-check2-circle"></i> Conseil & entretien</span>
+        </div>
+      </div>
+    </div>
+
+   <!-- <a class="scroll-indicator" href="#chr" aria-label="Scroll">
+      <span></span>
+    </a>-->
+  </header>
+
+  <!-- CHR -->
+  <section id="chr" class="section section-dark d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <h2 class="section-title">CHR</h2>
+
+      <div class="col-lg-6">
+        <p class="kicker mb-2">CHR & particuliers</p>
+        <h2 class="section-title display-5">Une solution de tirage adaptée à votre usage</h2>
+        <p class="text-white-50 fs-5">
+          Que vous soyez restaurateur, bar, hôtel, association ou particulier passionné,
+          nous vous accompagnons dans la création d’une installation de tirage pression
+          fiable, pratique et adaptée à vos besoins.
+        </p>
+
+        <p class="text-white-50">
+          L’objectif : vous proposer une solution claire, durable et évolutive.
+          Le choix du matériel, de la configuration et de l’évolution de l’installation
+se fait selon vos besoins réels, avec une approche souple et personnalisée.
+        </p>
+
+
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <span class="mini-pill">Bars & restaurants</span>
+          <span class="mini-pill">Hôtels</span>
+          <span class="mini-pill">Associations</span>
+          <span class="mini-pill">Événements</span>
+          <span class="mini-pill">Particuliers</span>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="glass-panel p-4 p-lg-5">
+          <h3 class="h4 mb-4 text-gold">Tireuses fixes ou mobiles</h3>
+
+          <div class="mb-4">
+            <h4 class="h6 text-white">Installation fixe</h4>
+            <p class="text-white-50 mb-0">
+              Création de systèmes de tirage sur mesure : comptoir, sous-comptoir,
+              cave, groupe froid, colonne, froid sec ou banc de glace.
+            </p>
+          </div>
+
+          <div class="mb-4">
+            <h4 class="h6 text-white">Tireuse mobile</h4>
+            <p class="text-white-50 mb-0">
+              Solutions mobiles pour événements, bars éphémères, associations,
+              prestations ponctuelles ou usage privé.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="h6 text-white">Personnalisation possible</h4>
+            <p class="text-white-50 mb-0">
+              Possibilité de personnaliser certaines tireuses mobiles avec votre
+              logo ou votre identité visuelle pour un rendu professionnel.
+            </p>
+          </div>
+
+          <div class="divider my-4"></div>
+
+          <p class="small text-white-50 mb-0">
+           Chaque installation est pensée comme une solution durable, adaptée à votre espace,
+  à votre fonctionnement et à vos habitudes de travail.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- MATERIELS (parallax) -->
+  <section id="materiels" class="section parallax" data-bg="img/materiels-bg.jpg">
+    <div class="overlay overlay-strong"></div>
+    <div class="container py-5 h-100 d-flex flex-column justify-content-center">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7" data-aos="fade-right">
+          <h2 class="section-title mb-3">Matériels</h2>
+          <p class="text-white-75">
+            Ici on ne vend pas “juste une machine” : on installe du matériel fiable, performant,
+            adapté à votre besoin réel. Marques reconnues, configuration optimisée, pièces et suivi.
+          </p>
+          <ul class="list-unstyled text-white-75 mb-4">
+            <li class="mb-2"><i class="bi bi-shield-check text-gold"></i> Matériel pro sélectionné</li>
+            <li class="mb-2"><i class="bi bi-tools text-gold"></i> Installation + réglages</li>
+            <li class="mb-2"><i class="bi bi-droplet text-gold"></i> Eau filtrée (anti-calcaire, goût, odeur)</li>
+            <li class="mb-2"><i class="bi bi-speedometer2 text-gold"></i> Débit stable et mousse maîtrisée</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold">Parler de votre projet</a>
+        </div>
+
+        <div class="col-lg-5" data-aos="fade-left">
+          <div class="glass-panel p-4">
+            <h3 class="h5 mb-3">Vous hésitez ?</h3>
+            <p class="text-white-75 mb-3">
+              Mobile ou fixe ? 2 ou 3 becs ? Je vous conseille selon votre activité et votre débit.
+            </p>
+            <div class="d-flex flex-column gap-2">
+              <div class="mini-pill"><i class="bi bi-clock"></i> Devis clair sous 24h</div>
+              <div class="mini-pill"><i class="bi bi-truck"></i> Installation sur site</div>
+              <div class="mini-pill"><i class="bi bi-chat-dots"></i> WhatsApp disponible</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie" class="section section-dark">
+    <div class="container py-5 h-100 d-flex flex-column justify-content-center">
+      <div class="text-center mb-4" data-aos="fade-up">
+        <h2 class="section-title">Galerie</h2>
+        <p class="text-white-50 mb-0">Quelques visuels de référence pour présenter vos solutions de tirage pression.</p>
+      </div>
+
+      <div id="galleryCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-aos="zoom-in">
+        <div class="carousel-inner rounded-4 overflow-hidden shadow-lg">
+          <div class="carousel-item active">
+            <img src="img/galerie-1.jpg" class="d-block w-100" alt="Exemple de montage de tireuse sur mesure" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="img/galerie-2.jpg" class="d-block w-100" alt="Installation de système de tirage pression" loading="lazy">
+          </div>
+          <div class="carousel-item">
+            <img src="img/galerie-3.jpg" class="d-block w-100" alt="Configuration professionnelle de tireuse à bière" loading="lazy">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+<section id="services" class="section parallax" data-bg="img/services-bg.jpg">
+  <div class="overlay"></div>
+
+  <div class="container py-5 h-100 d-flex flex-column justify-content-center">
+
+    <!-- Titre -->
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="section-title">Services</h2>
+      <p class="text-white-50 mb-0">Étude, conseil et installation de solutions de tirage pression adaptées à votre établissement.</p>
+    </div>
+
+   <div class="row g-4 mb-5">
+
+  <div class="col-md-6 col-lg-3" data-aos="fade-up">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-rulers"></i></div>
+      <h3 class="h5">Étude sur plans</h3>
+      <p class="text-white-50 mb-0">
+        Étude de faisabilité avec optimisation des espaces de stockage et des longueurs de lignes afin de limiter les pertes.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-tools"></i></div>
+      <h3 class="h5">Conseil matériel</h3>
+      <p class="text-white-50 mb-0">
+        Accompagnement dans le choix du matériel selon votre budget, votre débit, votre clientèle et la place disponible.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-cup-straw"></i></div>
+      <h3 class="h5">Installation pression</h3>
+      <p class="text-white-50 mb-0">
+        Installation de tirages pression classiques : colonnes, groupes froids, sous-comptoirs, caves, froid sec ou banc de glace.
+      </p>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+    <div class="service-card">
+      <div class="service-icon"><i class="bi bi-droplet"></i></div>
+      <h3 class="h5">Eau & filtration</h3>
+      <p class="text-white-50 mb-0">
+        Fourniture possible de systèmes de filtration d’eau potable hors contrat et de production d’eau gazeuse sous comptoir.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+    <!-- ✅ NOUVEAU BLOC CONSEIL / ÉTUDE -->
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="220">
+      <div class="col-lg-9">
+        <div class="glass-panel p-4 p-lg-5 text-center">
+
+          <h3 class="h5 text-gold mb-3">
+            Étude & accompagnement technique
+          </h3>
+
+          <p class="text-white-75 mb-3">
+            Pour vos projets ou créations de lieux, je vous propose une étude de faisabilité sur plans afin
+            d’anticiper les contraintes techniques : passages de lignes, réservations à prévoir et besoins en fluides
+            nécessaires au bon fonctionnement de l’installation.
+          </p>
+
+          <p class="text-white-75 mb-0">
+            Chaque projet est également optimisé pour réduire la consommation de produits et d’énergie,
+            garantissant performance et économies durables.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="260">
+      <a href="#contact" class="btn btn-gold btn-lg">Contact / Devis</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- CONTACT (form + mini map) -->
+  <section id="contact" class="section section-dark">
+    <div class="container py-5 h-100 d-flex flex-column justify-content-center">
+      <div class="text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">Contactez-nous</h2>
+        <p class="text-white-50 mb-0">Décris ton besoin, je te réponds vite (et clairement).</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="glass-panel p-4 h-100">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control form-control-lg" placeholder="Votre nom">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control form-control-lg" placeholder="vous@email.com">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="5" placeholder="Décrivez votre besoin..."></textarea>
+              </div>
+              <button type="button" class="btn btn-gold btn-lg w-100">Envoyer</button>
+
+              <div class="mt-3 small text-white-50">
+                <i class="bi bi-whatsapp"></i> WhatsApp dispo • <i class="bi bi-clock"></i> réponse rapide
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="glass-panel p-3 h-100">
+            <div class="map-wrap rounded-4 overflow-hidden">
+              <iframe
+                title="Carte"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-1.607%2C47.200%2C-1.455%2C47.260&layer=mapnik"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="mini-pill"><i class="bi bi-geo-alt"></i> Nantes / Loire-Atlantique</span>
+              <span class="mini-pill"><i class="bi bi-telephone"></i> 06 00 00 00 00</span>
+              <span class="mini-pill"><i class="bi bi-envelope"></i> contact@exemple.fr</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ Footer avec RS -->
+      <footer class="pt-5 text-center text-white-50 small">
+        <div class="divider my-4"></div>
+
+        <div class="d-flex justify-content-center gap-3 mb-3">
+          <a class="link-muted fs-5" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a class="link-muted fs-5" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a class="link-muted fs-5" href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        © <span id="year"></span> Tireuse de l’Ouest — Tous droits réservés.
+      </footer>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
